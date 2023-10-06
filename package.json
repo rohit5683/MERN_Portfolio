@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "axios": "^1.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "handlebars": "^4.7.8",
+    "mailgun.js": "^9.3.0",
+    "nodemailer": "^6.9.5",
+    "nodemailer-mailgun-transport": "^2.1.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "name": "mern-portfolio",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
